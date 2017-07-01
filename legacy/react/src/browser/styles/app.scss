@@ -1,0 +1,70 @@
+/**
+ * Variables
+ */
+
+@import "_bootstrap";
+
+@import "font-awesome/font-awesome";
+
+@import "components/_card";
+@import "components/_form";
+@import "components/_modal";
+@import "components/_onboarding";
+
+/* APP */
+
+	/* APP UI */
+	@import "components/app/UI/_switcher";
+	@import "components/app/UI/_select";
+	@import "components/app/UI/_typo";
+
+/* LANDING */
+@import "components/landing/_features";
+@import "components/landing/_how-it-works";
+@import "components/landing/_platforms";
+@import "components/landing/_stories";
+@import "components/landing/_team";
+
+@import "custom";
+
+.bg-app {
+	background: #ECEFF1;
+	height: 100vh;
+}
+
+.page__header-title {
+	// margin-bottom: 35px;
+	margin:0;
+	padding:0;
+}
+
+.row__mb--35 {
+	margin-bottom: 20px;
+}
+
+.landing {
+
+	h2 {
+		font-size: 36px;
+		color: #5759B8;
+		line-height: 44px;
+        margin-top: 80px;
+	}
+
+	h3 {
+		font-size: 20px;
+		color: #000000;
+		line-height: 72px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 27px;
+		color: rgba(#000000, 0.50);
+
+		strong {
+			color: #FFFFFF;
+		}
+	}
+
+}
