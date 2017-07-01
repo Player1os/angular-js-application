@@ -1,0 +1,25 @@
+.team {
+
+	.team-headline {
+		font-size: 48px;
+		color: #E2599B;
+		line-height: 56px;
+	}
+
+
+	.team-member {
+		img {
+			margin-bottom: 30px;
+		}
+
+		h3 {
+			line-height: initial;
+			padding: 0;
+			margin: 0;
+		}
+		p {
+			padding: 0;
+			margin: 0;
+		}
+	}
+}
