@@ -1,0 +1,32 @@
+.stories {
+	display: block;
+	width: 100%;
+	min-height: 945px;
+	color: #FFF;
+
+	&--star-crusade {
+		background:#2D2E76;
+		background-position: top center;
+        background-repeat: no-repeat;
+	}
+
+	h2 {
+		color: #FFFFFF !important;
+	}
+
+	h3 {
+		font-size: 72px !important;
+		color: #FDB167 !important;
+		line-height: 72px !important;
+	}
+
+	p {
+		font-size: 16px !important;
+		line-height: 24px !important;
+		color: rgba(#FFF,0.60) !important;
+
+		strong {
+			color: #FFFFFF !important;
+		}
+	}
+}
