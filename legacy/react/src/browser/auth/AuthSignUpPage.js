@@ -80,7 +80,7 @@ class AuthSignUpPage extends React.Component {
 			setField,
 			onFormSubmit,
 			openAvatarEditorPopup,
-		} = this.props;		
+		} = this.props;
 		const viewer = users.viewer;
 		const usersFormError = users.formError;
 
