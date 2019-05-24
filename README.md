@@ -1,5 +1,7 @@
 # Angular JS Application
 
+>> Base on this: https://github.com/corobiapolitici-sk/corobiapolitici-sk-frontend
+
 >> DEAL WITH SECURITY VULNRABILITY https://github.com/zkat/ssri
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
