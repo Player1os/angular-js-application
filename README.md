@@ -4,11 +4,15 @@
 
 >> DEAL WITH SECURITY VULNRABILITY https://github.com/zkat/ssri
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Run `npm i` to install dependencies.
+1. Run `ng serve` or `ng serve --watch --poll=2000` for a dev server.
+1. Navigate to `http://localhost:4200/`.
+
+The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

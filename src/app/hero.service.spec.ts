@@ -1,15 +1,20 @@
-import { TestBed, inject } from '@angular/core/testing';
+// Load angular modules.
+import {
+	inject,
+	TestBed,
+} from '@angular/core/testing'
 
-import { HeroService } from './hero.service';
+// Load local modules.
+import { HeroService } from './hero.service'
 
 describe('HeroService', () => {
 	beforeEach(() => {
 		TestBed.configureTestingModule({
-			providers: [HeroService]
-		});
-	});
+			providers: [HeroService],
+		})
+	})
 
 	it('should be created', inject([HeroService], (service: HeroService) => {
-		expect(service).toBeTruthy();
-	}));
-});
+		expect(service).toBeTruthy()
+	}))
+})

@@ -1,17 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+// Load angular modules.
+import { Component } from '@angular/core'
 
-import { MessageService } from '../message.service';
+// Load local modules.
+import { MessageService } from '../message.service'
 
 @Component({
 	selector: 'app-messages',
 	templateUrl: './messages.component.html',
-	styleUrls: ['./messages.component.css']
+	styleUrls: ['./messages.component.scss'],
 })
-export class MessagesComponent implements OnInit {
+export class MessagesComponent {
 	constructor(
-		public messageService: MessageService
+		public messageService: MessageService,
 	) {}
-
-	ngOnInit(): void {
-	}
 }
