@@ -27,7 +27,7 @@
     "ip": "^1.0.2",
     "make-error": "^1.0.4",
     "moch": "0.0.1",
-    "node-sass": "^3.1.2",
+    "node-sass": "^4.14.1",
     "postcss-loader": "^0.13.0",
     "raven-js": "^3.0.3",
     "rc-switch": "^1.4.2",
